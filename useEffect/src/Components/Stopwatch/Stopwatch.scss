@@ -1,0 +1,54 @@
+.stopwatch-container {
+  text-align: center;
+  margin: 50px;
+}
+
+.watch-face {
+  font-size: 2em;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border: 5px solid #3498db;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #3498db;
+  margin: 20px auto;
+  transition: border-color 0.3s;
+}
+
+.watch-face.running {
+  border-color: #2ecc71;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1em;
+  margin: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+button.start {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+button.stop {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button.reset {
+  background-color: #3498db;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+}
